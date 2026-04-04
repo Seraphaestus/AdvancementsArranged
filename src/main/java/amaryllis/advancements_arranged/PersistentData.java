@@ -32,10 +32,11 @@ public class PersistentData {
 
     public static void save(Map<AdvancementHolder, AdvancementTab> advancements, AdvancementTab selectedTab) {
         try {
-            JsonObject previousContents = GSON.fromJson(new FileReader(FILE), JsonObject.class);
+            JsonObject previousContents = FILE.exists() ? GSON.fromJson(new FileReader(FILE), JsonObject.class) : null;
             JsonObject json = new JsonObject();
 
-            JsonObject positions = previousContents.has("positions") ? previousContents.getAsJsonObject("positions") : new JsonObject();
+            JsonObject positions = (previousContents != null && previousContents.has("positions"))
+                    ? previousContents.getAsJsonObject("positions") : new JsonObject();
             for (AdvancementTab tab: advancements.values()) {
                 var tabAdvancements = ((IAdvancementTab)tab).getWidgets().entrySet();
                 for (Map.Entry<AdvancementHolder, AdvancementWidget> advancement: tabAdvancements) {
@@ -47,7 +48,8 @@ public class PersistentData {
             }
             json.add("positions", positions);
 
-            if (previousContents.has("backgrounds")) json.add("backgrounds", previousContents.get("backgrounds"));
+            if (previousContents != null && previousContents.has("backgrounds"))
+                json.add("backgrounds", previousContents.get("backgrounds"));
 
             FileWriter writer = new FileWriter(FILE);
             GSON.toJson(json, writer);
