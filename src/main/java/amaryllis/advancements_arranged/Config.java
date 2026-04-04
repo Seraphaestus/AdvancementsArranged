@@ -24,9 +24,10 @@ public class Config {
         WINDOW_WIDTH = BUILDER
                 .comment("")
                 .comment("It is recommended that additional size is added in increments of 16 so the background can tile nicely")
-                .defineInRange("window_width", 252, 0, 1024);
+                .comment("Note: the vanilla size is (252, 140)")
+                .defineInRange("window_width", 380, 0, 1024);
         WINDOW_HEIGHT = BUILDER
-                .defineInRange("window_height", 140, 0, 1024);
+                .defineInRange("window_height", 204, 0, 1024);
 
         WINDOW_BACKGROUND_MARGIN_X = BUILDER
                 .comment("")
@@ -38,7 +39,7 @@ public class Config {
 
         WINDOW_BACKGROUND_DARKNESS = BUILDER
                 .comment("")
-                .defineInRange("window_background_darkness", 0, 0d, 1d);
+                .defineInRange("window_background_darkness", 0.25, 0d, 1d);
 
         TAB_SORT_ORDER = BUILDER
                 .comment("")
