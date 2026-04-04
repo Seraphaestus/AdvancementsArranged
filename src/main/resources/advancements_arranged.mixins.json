@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "amaryllis.advancements_arranged.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "AdvancementsScreenMixin",
+    "AdvancementTabMixin",
+    "AdvancementWidgetMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -46,8 +46,9 @@ neoForge {
         minecraftVersion = project.parchment_minecraft_version
     }
 
-    // This line is optional. Access Transformers are automatically detected
-    // accessTransformers = project.files('src/main/resources/META-INF/accesstransformer.cfg')
+    accessTransformers {
+        file('src/main/resources/META-INF/accesstransformer.cfg')
+    }
 
     // Default run configurations.
     // These can be tweaked, removed, or duplicated as needed.
@@ -153,6 +154,8 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_name               : mod_name,
             mod_license            : mod_license,
             mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_description        : mod_description
     ]
     inputs.properties replaceProperties
     expand replaceProperties
