@@ -1,0 +1,588 @@
+{
+  "positions": {
+    "minecraft:nether/root": [
+      108,
+      132
+    ],
+    "minecraft:nether/return_to_sender": [
+      117,
+      175
+    ],
+    "minecraft:nether/find_bastion": [
+      147,
+      167
+    ],
+    "minecraft:nether/obtain_ancient_debris": [
+      167,
+      135
+    ],
+    "minecraft:nether/fast_travel": [
+      143,
+      106
+    ],
+    "minecraft:nether/use_lodestone": [
+      201,
+      116
+    ],
+    "minecraft:nether/uneasy_alliance": [
+      100,
+      208
+    ],
+    "minecraft:nether/find_fortress": [
+      96,
+      96
+    ],
+    "minecraft:nether/netherite_armor": [
+      200,
+      167
+    ],
+    "minecraft:nether/obtain_crying_obsidian": [
+      77,
+      170
+    ],
+    "minecraft:nether/distract_piglin": [
+      60,
+      109
+    ],
+    "minecraft:nether/ride_strider": [
+      47,
+      142
+    ],
+    "minecraft:nether/get_wither_skull": [
+      112,
+      64
+    ],
+    "minecraft:nether/obtain_blaze_rod": [
+      80,
+      64
+    ],
+    "minecraft:nether/loot_bastion": [
+      162,
+      203
+    ],
+    "minecraft:nether/charge_respawn_anchor": [
+      45,
+      207
+    ],
+    "minecraft:nether/ride_strider_in_overworld_lava": [
+      16,
+      171
+    ],
+    "minecraft:nether/summon_wither": [
+      144,
+      70
+    ],
+    "minecraft:nether/create_beacon": [
+      177,
+      83
+    ],
+    "minecraft:nether/brew_potion": [
+      49,
+      70
+    ],
+    "minecraft:nether/explore_nether": [
+      4,
+      133
+    ],
+    "minecraft:nether/create_full_beacon": [
+      208,
+      70
+    ],
+    "minecraft:nether/all_potions": [
+      26,
+      99
+    ],
+    "minecraft:nether/all_effects": [
+      -2,
+      85
+    ],
+    "minecraft:adventure/root": [
+      7,
+      319
+    ],
+    "minecraft:adventure/voluntary_exile": [
+      77,
+      293
+    ],
+    "minecraft:adventure/spyglass_at_parrot": [
+      28,
+      366
+    ],
+    "minecraft:adventure/kill_a_mob": [
+      7,
+      286
+    ],
+    "minecraft:adventure/brush_armadillo": [
+      -114,
+      278
+    ],
+    "minecraft:adventure/hero_of_the_village": [
+      115,
+      282
+    ],
+    "minecraft:adventure/read_power_of_chiseled_bookshelf": [
+      12,
+      414
+    ],
+    "minecraft:adventure/trade": [
+      74,
+      323
+    ],
+    "minecraft:adventure/spyglass_at_ghast": [
+      41,
+      396
+    ],
+    "minecraft:adventure/trim_with_any_armor_pattern": [
+      -84,
+      265
+    ],
+    "minecraft:adventure/throw_trident": [
+      68,
+      233
+    ],
+    "minecraft:adventure/crafters_crafting_crafters": [
+      -40,
+      314
+    ],
+    "minecraft:adventure/honey_block_slide": [
+      -26,
+      420
+    ],
+    "minecraft:adventure/ol_betsy": [
+      77,
+      261
+    ],
+    "minecraft:adventure/trim_with_all_exclusive_armor_patterns": [
+      -122,
+      247
+    ],
+    "minecraft:adventure/very_very_frightening": [
+      90,
+      205
+    ],
+    "minecraft:adventure/minecraft_trials_edition": [
+      -75,
+      334
+    ],
+    "minecraft:adventure/lightning_rod_with_villager_no_fire": [
+      -3,
+      387
+    ],
+    "minecraft:adventure/kill_mob_near_sculk_catalyst": [
+      -62,
+      236
+    ],
+    "minecraft:adventure/fall_from_world_height": [
+      -19,
+      353
+    ],
+    "minecraft:adventure/overoverkill": [
+      -138,
+      346
+    ],
+    "minecraft:adventure/two_birds_one_arrow": [
+      138,
+      252
+    ],
+    "minecraft:adventure/whos_the_pillager_now": [
+      107,
+      251
+    ],
+    "minecraft:adventure/salvage_sherd": [
+      -47,
+      349
+    ],
+    "minecraft:adventure/shoot_arrow": [
+      -18,
+      237
+    ],
+    "minecraft:adventure/lighten_up": [
+      -134,
+      305
+    ],
+    "minecraft:adventure/arbalistic": [
+      122,
+      223
+    ],
+    "minecraft:adventure/under_lock_and_key": [
+      -83,
+      375
+    ],
+    "minecraft:adventure/revaulting": [
+      -102,
+      407
+    ],
+    "minecraft:adventure/summon_iron_golem": [
+      134,
+      337
+    ],
+    "minecraft:adventure/avoid_vibration": [
+      -42,
+      265
+    ],
+    "minecraft:adventure/sleep_in_bed": [
+      52,
+      350
+    ],
+    "minecraft:adventure/kill_all_mobs": [
+      15,
+      243
+    ],
+    "minecraft:adventure/totem_of_undying": [
+      56,
+      206
+    ],
+    "minecraft:adventure/adventuring_time": [
+      103,
+      394
+    ],
+    "minecraft:adventure/spyglass_at_dragon": [
+      59,
+      424
+    ],
+    "minecraft:adventure/trade_at_world_height": [
+      112,
+      315
+    ],
+    "minecraft:adventure/play_jukebox_in_meadows": [
+      72,
+      393
+    ],
+    "minecraft:adventure/blowback": [
+      -117,
+      372
+    ],
+    "minecraft:adventure/who_needs_rockets": [
+      -107,
+      321
+    ],
+    "minecraft:adventure/craft_decorated_pot_using_only_sherds": [
+      -54,
+      382
+    ],
+    "minecraft:adventure/sniper_duel": [
+      -46,
+      202
+    ],
+    "minecraft:adventure/bullseye": [
+      -5,
+      201
+    ],
+    "minecraft:adventure/walk_on_powder_snow_with_leather_boots": [
+      119,
+      366
+    ],
+    "minecraft:end/root": [
+      0,
+      8
+    ],
+    "minecraft:end/kill_dragon": [
+      32,
+      52
+    ],
+    "minecraft:end/dragon_egg": [
+      -25,
+      58
+    ],
+    "minecraft:end/enter_end_gateway": [
+      68,
+      92
+    ],
+    "minecraft:end/respawn_dragon": [
+      55,
+      19
+    ],
+    "minecraft:end/dragon_breath": [
+      -4,
+      96
+    ],
+    "minecraft:end/find_end_city": [
+      109,
+      48
+    ],
+    "minecraft:end/elytra": [
+      154,
+      71
+    ],
+    "minecraft:end/levitate": [
+      130,
+      12
+    ],
+    "minecraft:husbandry/root": [
+      48,
+      172
+    ],
+    "minecraft:husbandry/safely_harvest_honey": [
+      -34,
+      170
+    ],
+    "minecraft:husbandry/breed_an_animal": [
+      75,
+      117
+    ],
+    "minecraft:husbandry/allay_deliver_item_to_player": [
+      -19,
+      215
+    ],
+    "minecraft:husbandry/ride_a_boat_with_a_goat": [
+      -27,
+      133
+    ],
+    "minecraft:husbandry/tame_an_animal": [
+      104,
+      149
+    ],
+    "minecraft:husbandry/make_a_sign_glow": [
+      5,
+      132
+    ],
+    "minecraft:husbandry/whole_pack": [
+      153,
+      164
+    ],
+    "minecraft:husbandry/fishy_business": [
+      48,
+      216
+    ],
+    "minecraft:husbandry/remove_wolf_armor": [
+      153,
+      132
+    ],
+    "minecraft:husbandry/bred_all_animals": [
+      96,
+      88
+    ],
+    "minecraft:husbandry/tactical_fishing": [
+      48,
+      244
+    ],
+    "minecraft:husbandry/silk_touch_nest": [
+      -6,
+      179
+    ],
+    "minecraft:husbandry/tadpole_in_a_bucket": [
+      94,
+      202
+    ],
+    "minecraft:husbandry/obtain_sniffer_egg": [
+      11,
+      231
+    ],
+    "minecraft:husbandry/plant_seed": [
+      35,
+      124
+    ],
+    "minecraft:husbandry/axolotl_in_a_bucket": [
+      87,
+      234
+    ],
+    "minecraft:husbandry/allay_deliver_cake_to_note_block": [
+      -61,
+      211
+    ],
+    "minecraft:husbandry/wax_on": [
+      -74,
+      159
+    ],
+    "minecraft:husbandry/balanced_diet": [
+      3,
+      95
+    ],
+    "minecraft:husbandry/kill_axolotl_target": [
+      97,
+      266
+    ],
+    "minecraft:husbandry/complete_catalogue": [
+      123,
+      185
+    ],
+    "minecraft:husbandry/repair_wolf_armor": [
+      139,
+      104
+    ],
+    "minecraft:husbandry/leash_all_frog_variants": [
+      126,
+      217
+    ],
+    "minecraft:husbandry/feed_snifflet": [
+      -5,
+      262
+    ],
+    "minecraft:husbandry/wax_off": [
+      -63,
+      117
+    ],
+    "minecraft:husbandry/obtain_netherite_hoe": [
+      41,
+      84
+    ],
+    "minecraft:husbandry/plant_any_sniffer_seed": [
+      -44,
+      261
+    ],
+    "minecraft:husbandry/froglights": [
+      139,
+      250
+    ],
+    "minecraft:story/root": [
+      49,
+      59
+    ],
+    "minecraft:story/mine_stone": [
+      49,
+      18
+    ],
+    "minecraft:story/upgrade_tools": [
+      80,
+      4
+    ],
+    "minecraft:story/smelt_iron": [
+      97,
+      44
+    ],
+    "minecraft:story/obtain_armor": [
+      132,
+      79
+    ],
+    "minecraft:story/lava_bucket": [
+      132,
+      9
+    ],
+    "minecraft:story/deflect_arrow": [
+      104,
+      115
+    ],
+    "minecraft:story/iron_tools": [
+      138,
+      44
+    ],
+    "minecraft:story/form_obsidian": [
+      168,
+      24
+    ],
+    "minecraft:story/mine_diamond": [
+      182,
+      74
+    ],
+    "minecraft:story/enter_the_nether": [
+      200,
+      24
+    ],
+    "minecraft:story/cure_zombie_villager": [
+      250,
+      40
+    ],
+    "minecraft:story/shiny_gear": [
+      224,
+      78
+    ],
+    "minecraft:story/enchant_item": [
+      196,
+      107
+    ],
+    "minecraft:story/follow_ender_eye": [
+      217,
+      -7
+    ],
+    "minecraft:story/enter_the_end": [
+      251,
+      -19
+    ]
+  },
+  "backgrounds": {
+    "minecraft:story": [
+      {
+        "texture": "minecraft:textures/block/stone.png",
+        "weight": 100
+      },
+      {
+        "texture": "minecraft:textures/block/coal_ore.png",
+        "weight": 5
+      },
+      {
+        "texture": "minecraft:textures/block/iron_ore.png",
+        "weight": 5
+      },
+      {
+        "texture": "minecraft:textures/block/redstone_ore.png",
+        "weight": 2
+      },
+      {
+        "texture": "minecraft:textures/block/diamond_ore.png",
+        "weight": 1
+      }
+    ],
+    "minecraft:husbandry": [
+      {
+        "texture": "minecraft:textures/block/farmland.png",
+        "weight": 80
+      },
+      {
+        "texture": "minecraft:textures/block/farmland_moist.png",
+        "weight": 20
+      },
+      {
+        "texture": "minecraft:textures/block/moss_block.png",
+        "weight": 50
+      },
+      {
+        "texture": "minecraft:textures/block/azalea_top.png",
+        "weight": 10
+      },
+      {
+        "texture": "minecraft:textures/block/flowering_azalea_top.png",
+        "weight": 10
+      },
+      {
+        "texture": "minecraft:textures/block/hay_block_top.png",
+        "weight": 1
+      }
+    ],
+    "minecraft:adventure": [
+      {
+        "texture": "minecraft:textures/block/stone_bricks.png",
+        "weight": 100
+      },
+      {
+        "texture": "minecraft:textures/block/cracked_stone_bricks.png",
+        "weight": 10
+      },
+      {
+        "texture": "minecraft:textures/block/mossy_stone_bricks.png",
+        "weight": 10
+      },
+      {
+        "texture": "minecraft:textures/block/iron_bars.png",
+        "weight": 20
+      }
+    ],
+    "minecraft:nether": [
+      {
+        "texture": "minecraft:textures/block/netherrack.png",
+        "weight": 200
+      },
+      {
+        "texture": "minecraft:textures/block/nether_quartz_ore.png",
+        "weight": 10
+      },
+      {
+        "texture": "minecraft:textures/block/nether_gold_ore.png",
+        "weight": 10
+      },
+      {
+        "texture": "minecraft:textures/block/ancient_debris_top.png",
+        "weight": 1
+      }
+    ],
+    "minecraft:end": [
+      {
+        "texture": "minecraft:textures/block/end_stone.png",
+        "weight": 100
+      },
+      {
+        "texture": "minecraft:textures/block/end_stone_bricks.png",
+        "weight": 10
+      }
+    ]
+  }
+}
