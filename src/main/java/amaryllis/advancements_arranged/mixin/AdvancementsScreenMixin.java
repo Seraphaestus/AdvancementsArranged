@@ -62,7 +62,7 @@ public class AdvancementsScreenMixin extends Screen implements ClientAdvancement
         PersistentData.load((AdvancementsScreen)(Object)this);
     }
 
-    @Inject(method = "onClose", at = @At("TAIL"))
+    @Inject(method = "removed", at = @At("TAIL"))
     public void onClose(CallbackInfo callback) {
         if (Config.CAN_EDIT.get()) PersistentData.save(tabs, selectedTab);
     }
