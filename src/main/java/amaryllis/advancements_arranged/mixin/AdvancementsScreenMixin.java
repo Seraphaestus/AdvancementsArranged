@@ -139,7 +139,7 @@ public class AdvancementsScreenMixin extends Screen implements ClientAdvancement
     @Override
     public boolean mouseReleased(double mouseX, double mouseY, int button) {
         if (draggedAdvancement != null) draggedAdvancement = null;
-        return super.mouseClicked(mouseX, mouseY, button);
+        return super.mouseReleased(mouseX, mouseY, button);
     }
 
     @Inject(method = "renderTooltips", at = @At("HEAD"), cancellable = true)
