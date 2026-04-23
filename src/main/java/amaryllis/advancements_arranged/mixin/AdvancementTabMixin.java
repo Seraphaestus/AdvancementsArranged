@@ -79,7 +79,6 @@ public class AdvancementTabMixin implements IAdvancementTab {
         scrollY += dragY;
     }
 
-    //region Modify Window Size
     @Overwrite
     public void drawContents(GuiGraphics guiGraphics, int x, int y) {
         int width = Config.WINDOW_WIDTH.getAsInt() - WINDOW_INSIDE_X * 2;

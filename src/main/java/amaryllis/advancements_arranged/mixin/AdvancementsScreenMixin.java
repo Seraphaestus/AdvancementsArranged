@@ -10,6 +10,7 @@ import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementNode;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.advancements.AdvancementTab;
 import net.minecraft.client.gui.screens.advancements.AdvancementWidget;
@@ -147,7 +148,6 @@ public class AdvancementsScreenMixin extends Screen implements ClientAdvancement
         if (draggedAdvancement != null) callback.cancel();
     }
 
-    //region Modify Window Size
     @ModifyVariable(method = "init", at = @At(value = "STORE"), ordinal = 0)
     private int modifyWidth_init(int original) {
         return (width - Config.WINDOW_WIDTH.getAsInt()) / 2;
@@ -156,6 +156,11 @@ public class AdvancementsScreenMixin extends Screen implements ClientAdvancement
     private int modifyHeight_init(int original) {
         return (height - Config.WINDOW_HEIGHT.getAsInt()) / 2;
     }
+    @Redirect(method = "init", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/components/Button$Builder;pos(II)Lnet/minecraft/client/gui/components/Button$Builder;", ordinal = 1))
+    private Button.Builder modifyWidth_init_2(Button.Builder builder, int x, int y) {
+        return builder.pos(x - 252 + Config.WINDOW_WIDTH.getAsInt(), y);
+    }
+
     @Overwrite
     public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
         super.render(guiGraphics, mouseX, mouseY, partialTick);
@@ -166,7 +171,7 @@ public class AdvancementsScreenMixin extends Screen implements ClientAdvancement
         if (maxPages != 0) {
             Component page = Component.literal(String.format("%d / %d", tabPage + 1, maxPages + 1));
             int fontWidth = font.width(page);
-            guiGraphics.drawString(font, page.getVisualOrderText(), x + (windowWidth - fontWidth) / 2, y - 44, -1);
+            guiGraphics.drawString(font, page.getVisualOrderText(), x + (windowWidth - fontWidth) / 2, y - 38, -1);
         }
 
         renderInside(guiGraphics, mouseX, mouseY, x, y);
@@ -208,7 +213,6 @@ public class AdvancementsScreenMixin extends Screen implements ClientAdvancement
         guiGraphics.drawCenteredString(font, NO_ADVANCEMENTS_LABEL, offsetX + width / 2, offsetY + height / 2 - 4, -1);
         guiGraphics.drawCenteredString(font, VERY_SAD_LABEL,        offsetX + width / 2, offsetY + height - WINDOW_INSIDE_Y, -1);
     }
-    //endregion
 
     @Shadow public void onAddAdvancementRoot(AdvancementNode node) {}
     @Shadow public void onRemoveAdvancementRoot(AdvancementNode node) {}
