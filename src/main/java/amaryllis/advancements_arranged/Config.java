@@ -53,10 +53,15 @@ public class Config {
     }
 
     public static int AdvancementTabSorter(AdvancementTab a, AdvancementTab b) {
-        final int a_ordinal = TAB_SORT_ORDER.get().indexOf(Util.getAdvancementTabID(a));
-        final int b_ordinal = TAB_SORT_ORDER.get().indexOf(Util.getAdvancementTabID(b));
+        final int a_ordinal = getTabOrdinal(a);
+        final int b_ordinal = getTabOrdinal(b);
         return (a_ordinal != b_ordinal)
                 ? a_ordinal - b_ordinal
                 : a.getIndex() - b.getIndex();
+    }
+    protected static int getTabOrdinal(AdvancementTab tab) {
+        final String ID = Util.getAdvancementTabID(tab);
+        final int ordinal = TAB_SORT_ORDER.get().indexOf(ID);
+        return (ordinal != -1) ? ordinal : Integer.MAX_VALUE;
     }
 }
