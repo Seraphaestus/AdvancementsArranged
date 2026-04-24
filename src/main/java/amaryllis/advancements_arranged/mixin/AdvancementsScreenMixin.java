@@ -65,7 +65,8 @@ public class AdvancementsScreenMixin extends Screen implements ClientAdvancement
 
     @Inject(method = "removed", at = @At("TAIL"))
     public void onClose(CallbackInfo callback) {
-        if (Config.CAN_EDIT.get()) PersistentData.save(tabs, selectedTab);
+        if (Config.CAN_EDIT.isTrue() && Config.TEST_ONLY.isFalse())
+            PersistentData.save(tabs, selectedTab);
     }
 
     @Inject(method = "onAddAdvancementRoot", at = @At("TAIL"))

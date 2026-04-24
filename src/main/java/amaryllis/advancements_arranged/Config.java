@@ -10,6 +10,7 @@ public class Config {
     public static final ModConfigSpec SPEC;
 
     public static final ModConfigSpec.BooleanValue CAN_EDIT;
+    public static final ModConfigSpec.BooleanValue TEST_ONLY;
     public static final ModConfigSpec.IntValue WINDOW_WIDTH;
     public static final ModConfigSpec.IntValue WINDOW_HEIGHT;
     public static final ModConfigSpec.IntValue WINDOW_BACKGROUND_MARGIN_X;
@@ -20,6 +21,10 @@ public class Config {
     static {
         CAN_EDIT = BUILDER
                 .define("can_edit", true);
+        TEST_ONLY = BUILDER
+                .comment("")
+                .comment(" If true, changes from dragging advancements aren't saved")
+                .define("test_only", false);
 
         WINDOW_WIDTH = BUILDER
                 .comment("")
