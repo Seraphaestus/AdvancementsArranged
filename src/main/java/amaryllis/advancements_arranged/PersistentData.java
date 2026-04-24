@@ -43,7 +43,8 @@ public class PersistentData {
                     String advancementID = advancement.getKey().toString();
                     AdvancementWidget widget = advancement.getValue();
 
-                    Util.putJsonArray(positions, advancementID, widget.getX(), widget.getY());
+                    if (((IAdvancementWidget)widget).hasPositionChanged())
+                        Util.putJsonArray(positions, advancementID, widget.getX(), widget.getY());
                 }
             }
             json.add("positions", positions);

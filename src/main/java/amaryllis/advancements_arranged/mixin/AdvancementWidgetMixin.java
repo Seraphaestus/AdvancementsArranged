@@ -32,6 +32,7 @@ public class AdvancementWidgetMixin implements IAdvancementWidget {
 
     @Shadow private int x;
     @Shadow private int y;
+    private boolean has_position_changed = false;
 
     @Shadow private AdvancementTab tab;
     @Shadow private AdvancementNode advancementNode;
@@ -42,12 +43,20 @@ public class AdvancementWidgetMixin implements IAdvancementWidget {
     @Inject(method = "<init>", at = @At("TAIL"))
     private void loadPosition(CallbackInfo callback) {
         PersistentData.loadSavedPosition(advancementNode.holder(), (AdvancementWidget)(Object)this);
+        has_position_changed = false;
     }
 
     public void setPosition(int x, int y) {
+        if (x == this.x && y == this.y) return;
+
         this.x = x;
         this.y = y;
         if (tab != null) ((IAdvancementTab)tab).arranged$updateWidget((AdvancementWidget)(Object)this);
+        if (!has_position_changed) has_position_changed = true;
+    }
+
+    public boolean hasPositionChanged() {
+        return has_position_changed;
     }
 
     @Overwrite
