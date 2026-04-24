@@ -58,7 +58,7 @@ public class AdvancementsScreenMixin extends Screen implements ClientAdvancement
         super(title);
     }
 
-    @Inject(method = "<init>", at = @At("TAIL"))
+    @Inject(method = "init", at = @At("HEAD"))
     private void reloadSavedArrangement(CallbackInfo callback) {
         PersistentData.load((AdvancementsScreen)(Object)this);
     }
