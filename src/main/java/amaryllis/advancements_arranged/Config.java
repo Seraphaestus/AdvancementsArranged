@@ -57,7 +57,7 @@ public class Config {
                 .comment(" Ordered list of root advancement IDs which dictates the order their corresponding tabs should be displayed")
                 .comment(" Non-listed tabs will be displayed after the end of the listed tabs in arbitrary order")
                 .defineListAllowEmpty("tab_sort_order",
-                        List.of("minecraft:story", "minecraft:husbandry", "minecraft:adventure", "minecraft:nether", "minecraft:end"),
+                        List.of("minecraft:story", "minecraft:husbandry", "minecraft:adventure", "minecraft:nether", "minecraft:end", "create:root", "simulated:root", "aeronautics:root", "offroad:root"),
                         (id) -> true);
 
         SPEC = BUILDER.build();

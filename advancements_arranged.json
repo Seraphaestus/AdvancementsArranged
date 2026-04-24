@@ -1,52 +1,52 @@
 {
   "positions": {
     "minecraft:nether/root": [
-      108,
-      132
+      96,
+      136
     ],
     "minecraft:nether/return_to_sender": [
-      117,
-      175
+      96,
+      176
     ],
     "minecraft:nether/find_bastion": [
-      147,
-      167
+      136,
+      168
     ],
     "minecraft:nether/obtain_ancient_debris": [
-      167,
-      135
+      152,
+      136
     ],
     "minecraft:nether/fast_travel": [
-      143,
-      106
+      136,
+      104
     ],
     "minecraft:nether/use_lodestone": [
-      201,
-      116
+      192,
+      112
     ],
     "minecraft:nether/uneasy_alliance": [
-      100,
-      208
+      96,
+      207
     ],
     "minecraft:nether/find_fortress": [
       96,
-      96
+      100
     ],
     "minecraft:nether/netherite_armor": [
-      200,
-      167
+      192,
+      160
     ],
     "minecraft:nether/obtain_crying_obsidian": [
-      77,
-      170
+      56,
+      168
     ],
     "minecraft:nether/distract_piglin": [
-      60,
-      109
+      56,
+      104
     ],
     "minecraft:nether/ride_strider": [
-      47,
-      142
+      40,
+      136
     ],
     "minecraft:nether/get_wither_skull": [
       112,
@@ -57,372 +57,372 @@
       64
     ],
     "minecraft:nether/loot_bastion": [
-      162,
-      203
+      148,
+      204
     ],
     "minecraft:nether/charge_respawn_anchor": [
-      45,
-      207
+      44,
+      204
     ],
     "minecraft:nether/ride_strider_in_overworld_lava": [
-      16,
-      171
+      0,
+      160
     ],
     "minecraft:nether/summon_wither": [
-      144,
-      70
+      152,
+      72
     ],
     "minecraft:nether/create_beacon": [
-      177,
-      83
+      192,
+      76
     ],
     "minecraft:nether/brew_potion": [
-      49,
-      70
+      40,
+      72
     ],
     "minecraft:nether/explore_nether": [
-      4,
-      133
+      0,
+      112
     ],
     "minecraft:nether/create_full_beacon": [
-      208,
-      70
+      232,
+      88
     ],
     "minecraft:nether/all_potions": [
-      26,
-      99
+      0,
+      76
     ],
     "minecraft:nether/all_effects": [
-      -2,
-      85
+      -40,
+      88
     ],
     "minecraft:adventure/root": [
-      7,
-      319
+      8,
+      320
     ],
     "minecraft:adventure/voluntary_exile": [
-      77,
-      293
+      84,
+      324
     ],
     "minecraft:adventure/spyglass_at_parrot": [
-      28,
-      366
+      8,
+      412
     ],
     "minecraft:adventure/kill_a_mob": [
-      7,
+      8,
       286
     ],
     "minecraft:adventure/brush_armadillo": [
-      -114,
-      278
+      -94,
+      286
     ],
     "minecraft:adventure/hero_of_the_village": [
-      115,
-      282
-    ],
-    "minecraft:adventure/read_power_of_chiseled_bookshelf": [
-      12,
-      414
-    ],
-    "minecraft:adventure/trade": [
-      74,
-      323
-    ],
-    "minecraft:adventure/spyglass_at_ghast": [
-      41,
-      396
-    ],
-    "minecraft:adventure/trim_with_any_armor_pattern": [
-      -84,
-      265
-    ],
-    "minecraft:adventure/throw_trident": [
-      68,
-      233
-    ],
-    "minecraft:adventure/crafters_crafting_crafters": [
-      -40,
+      128,
       314
     ],
-    "minecraft:adventure/honey_block_slide": [
-      -26,
+    "minecraft:adventure/read_power_of_chiseled_bookshelf": [
+      33,
+      384
+    ],
+    "minecraft:adventure/trade": [
+      88,
+      286
+    ],
+    "minecraft:adventure/spyglass_at_ghast": [
+      52,
       420
     ],
+    "minecraft:adventure/trim_with_any_armor_pattern": [
+      -61,
+      286
+    ],
+    "minecraft:adventure/throw_trident": [
+      51,
+      204
+    ],
+    "minecraft:adventure/crafters_crafting_crafters": [
+      -36,
+      320
+    ],
+    "minecraft:adventure/honey_block_slide": [
+      146,
+      356
+    ],
     "minecraft:adventure/ol_betsy": [
-      77,
-      261
+      67,
+      259
     ],
     "minecraft:adventure/trim_with_all_exclusive_armor_patterns": [
-      -122,
-      247
+      -86,
+      242
     ],
     "minecraft:adventure/very_very_frightening": [
-      90,
-      205
+      89,
+      189
     ],
     "minecraft:adventure/minecraft_trials_edition": [
-      -75,
-      334
+      -39,
+      356
     ],
     "minecraft:adventure/lightning_rod_with_villager_no_fire": [
-      -3,
-      387
+      57,
+      286
     ],
     "minecraft:adventure/kill_mob_near_sculk_catalyst": [
-      -62,
-      236
+      -52,
+      242
     ],
     "minecraft:adventure/fall_from_world_height": [
-      -19,
-      353
+      117,
+      356
     ],
     "minecraft:adventure/overoverkill": [
-      -138,
-      346
+      -120,
+      331
     ],
     "minecraft:adventure/two_birds_one_arrow": [
-      138,
-      252
+      152,
+      221
     ],
     "minecraft:adventure/whos_the_pillager_now": [
-      107,
-      251
+      92,
+      222
     ],
     "minecraft:adventure/salvage_sherd": [
-      -47,
-      349
+      -17,
+      384
     ],
     "minecraft:adventure/shoot_arrow": [
-      -18,
-      237
+      -17,
+      243
     ],
     "minecraft:adventure/lighten_up": [
-      -134,
-      305
+      -75,
+      319
     ],
     "minecraft:adventure/arbalistic": [
       122,
-      223
+      222
     ],
     "minecraft:adventure/under_lock_and_key": [
-      -83,
-      375
+      -59,
+      394
     ],
     "minecraft:adventure/revaulting": [
-      -102,
-      407
+      -98,
+      414
     ],
     "minecraft:adventure/summon_iron_golem": [
-      134,
-      337
+      123,
+      262
     ],
     "minecraft:adventure/avoid_vibration": [
-      -42,
-      265
+      -29,
+      283
     ],
     "minecraft:adventure/sleep_in_bed": [
-      52,
-      350
+      54,
+      356
     ],
     "minecraft:adventure/kill_all_mobs": [
       15,
       243
     ],
     "minecraft:adventure/totem_of_undying": [
-      56,
-      206
+      51,
+      232
     ],
     "minecraft:adventure/adventuring_time": [
-      103,
-      394
+      105,
+      393
     ],
     "minecraft:adventure/spyglass_at_dragon": [
-      59,
-      424
+      100,
+      428
     ],
     "minecraft:adventure/trade_at_world_height": [
-      112,
-      315
+      145,
+      286
     ],
     "minecraft:adventure/play_jukebox_in_meadows": [
-      72,
+      75,
       393
     ],
     "minecraft:adventure/blowback": [
-      -117,
-      372
+      -121,
+      381
     ],
     "minecraft:adventure/who_needs_rockets": [
-      -107,
-      321
+      -100,
+      356
     ],
     "minecraft:adventure/craft_decorated_pot_using_only_sherds": [
-      -54,
-      382
+      -52,
+      424
     ],
     "minecraft:adventure/sniper_duel": [
-      -46,
-      202
+      -36,
+      200
     ],
     "minecraft:adventure/bullseye": [
-      -5,
-      201
+      4,
+      200
     ],
     "minecraft:adventure/walk_on_powder_snow_with_leather_boots": [
-      119,
-      366
+      85,
+      356
     ],
     "minecraft:end/root": [
-      0,
-      8
+      20,
+      0
     ],
     "minecraft:end/kill_dragon": [
-      32,
-      52
+      44,
+      44
     ],
     "minecraft:end/dragon_egg": [
-      -25,
-      58
+      5,
+      84
     ],
     "minecraft:end/enter_end_gateway": [
-      68,
-      92
+      92,
+      24
     ],
     "minecraft:end/respawn_dragon": [
-      55,
-      19
+      -12,
+      44
     ],
     "minecraft:end/dragon_breath": [
-      -4,
-      96
+      68,
+      88
     ],
     "minecraft:end/find_end_city": [
-      109,
-      48
+      130,
+      64
     ],
     "minecraft:end/elytra": [
-      154,
-      71
+      173,
+      77
     ],
     "minecraft:end/levitate": [
-      130,
-      12
+      152,
+      16
     ],
     "minecraft:husbandry/root": [
       48,
       172
     ],
     "minecraft:husbandry/safely_harvest_honey": [
-      -34,
-      170
+      8,
+      135
     ],
     "minecraft:husbandry/breed_an_animal": [
-      75,
-      117
+      28,
+      220
     ],
     "minecraft:husbandry/allay_deliver_item_to_player": [
-      -19,
-      215
+      -54,
+      179
     ],
     "minecraft:husbandry/ride_a_boat_with_a_goat": [
-      -27,
-      133
+      96,
+      147
     ],
     "minecraft:husbandry/tame_an_animal": [
       104,
-      149
+      172
     ],
     "minecraft:husbandry/make_a_sign_glow": [
-      5,
-      132
+      96,
+      123
     ],
     "minecraft:husbandry/whole_pack": [
       153,
-      164
+      190
     ],
     "minecraft:husbandry/fishy_business": [
-      48,
-      216
+      68,
+      220
     ],
     "minecraft:husbandry/remove_wolf_armor": [
       153,
-      132
+      153
     ],
     "minecraft:husbandry/bred_all_animals": [
-      96,
-      88
+      28,
+      252
     ],
     "minecraft:husbandry/tactical_fishing": [
-      48,
-      244
+      68,
+      252
     ],
     "minecraft:husbandry/silk_touch_nest": [
-      -6,
-      179
-    ],
-    "minecraft:husbandry/tadpole_in_a_bucket": [
-      94,
-      202
-    ],
-    "minecraft:husbandry/obtain_sniffer_egg": [
-      11,
-      231
-    ],
-    "minecraft:husbandry/plant_seed": [
-      35,
-      124
-    ],
-    "minecraft:husbandry/axolotl_in_a_bucket": [
-      87,
-      234
-    ],
-    "minecraft:husbandry/allay_deliver_cake_to_note_block": [
-      -61,
-      211
-    ],
-    "minecraft:husbandry/wax_on": [
-      -74,
+      -26,
       159
     ],
+    "minecraft:husbandry/tadpole_in_a_bucket": [
+      100,
+      210
+    ],
+    "minecraft:husbandry/obtain_sniffer_egg": [
+      -13,
+      209
+    ],
+    "minecraft:husbandry/plant_seed": [
+      48,
+      136
+    ],
+    "minecraft:husbandry/axolotl_in_a_bucket": [
+      104,
+      252
+    ],
+    "minecraft:husbandry/allay_deliver_cake_to_note_block": [
+      -91,
+      155
+    ],
+    "minecraft:husbandry/wax_on": [
+      -32,
+      128
+    ],
     "minecraft:husbandry/balanced_diet": [
-      3,
-      95
-    ],
-    "minecraft:husbandry/kill_axolotl_target": [
-      97,
-      266
-    ],
-    "minecraft:husbandry/complete_catalogue": [
-      123,
-      185
-    ],
-    "minecraft:husbandry/repair_wolf_armor": [
-      139,
+      32,
       104
     ],
+    "minecraft:husbandry/kill_axolotl_target": [
+      140,
+      252
+    ],
+    "minecraft:husbandry/complete_catalogue": [
+      184,
+      172
+    ],
+    "minecraft:husbandry/repair_wolf_armor": [
+      153,
+      127
+    ],
     "minecraft:husbandry/leash_all_frog_variants": [
-      126,
-      217
+      141,
+      218
     ],
     "minecraft:husbandry/feed_snifflet": [
-      -5,
-      262
+      -31,
+      246
     ],
     "minecraft:husbandry/wax_off": [
-      -63,
-      117
+      -68,
+      112
     ],
     "minecraft:husbandry/obtain_netherite_hoe": [
-      41,
-      84
+      64,
+      104
     ],
     "minecraft:husbandry/plant_any_sniffer_seed": [
-      -44,
-      261
+      -74,
+      227
     ],
     "minecraft:husbandry/froglights": [
-      139,
-      250
+      182,
+      227
     ],
     "minecraft:story/root": [
       49,
@@ -433,60 +433,624 @@
       18
     ],
     "minecraft:story/upgrade_tools": [
-      80,
-      4
+      90,
+      0
     ],
     "minecraft:story/smelt_iron": [
       97,
       44
     ],
     "minecraft:story/obtain_armor": [
-      132,
-      79
+      136,
+      83
     ],
     "minecraft:story/lava_bucket": [
-      132,
-      9
+      136,
+      4
     ],
     "minecraft:story/deflect_arrow": [
-      104,
-      115
+      148,
+      124
     ],
     "minecraft:story/iron_tools": [
-      138,
+      136,
       44
     ],
     "minecraft:story/form_obsidian": [
-      168,
-      24
+      176,
+      20
     ],
     "minecraft:story/mine_diamond": [
-      182,
-      74
+      176,
+      60
     ],
     "minecraft:story/enter_the_nether": [
-      200,
-      24
+      220,
+      32
     ],
     "minecraft:story/cure_zombie_villager": [
-      250,
-      40
+      228,
+      -8
     ],
     "minecraft:story/shiny_gear": [
-      224,
-      78
+      220,
+      68
     ],
     "minecraft:story/enchant_item": [
-      196,
-      107
+      188,
+      104
     ],
     "minecraft:story/follow_ender_eye": [
-      217,
-      -7
+      264,
+      24
     ],
     "minecraft:story/enter_the_end": [
-      251,
-      -19
+      264,
+      60
+    ],
+    "aeronautics:head_in_the_clouds": [
+      0,
+      27
+    ],
+    "aeronautics:song_of_the_sky": [
+      -36,
+      40
+    ],
+    "aeronautics:high_fashion": [
+      0,
+      108
+    ],
+    "aeronautics:heavier_artillery": [
+      44,
+      76
+    ],
+    "aeronautics:for_every_action": [
+      -36,
+      -8
+    ],
+    "aeronautics:unidentified_floating_object": [
+      36,
+      -8
+    ],
+    "aeronautics:ghostbuster": [
+      44,
+      40
+    ],
+    "aeronautics:in_thrust_we_trust": [
+      -80,
+      4
+    ],
+    "aeronautics:now_available_in_pink": [
+      76,
+      4
+    ],
+    "simulated:root": [
+      -40,
+      164
+    ],
+    "simulated:applied_kinematics": [
+      0,
+      164
+    ],
+    "simulated:you_spin_me_right_round": [
+      48,
+      124
+    ],
+    "simulated:opposite_attract": [
+      -52,
+      124
+    ],
+    "simulated:not_gonna_sugarcoat_it": [
+      0,
+      132
+    ],
+    "simulated:learning_the_ropes": [
+      -52,
+      200
+    ],
+    "simulated:stuck_together": [
+      -92,
+      200
+    ],
+    "simulated:no_pressure": [
+      0,
+      200
+    ],
+    "simulated:can_we_get_much_higher": [
+      112,
+      236
+    ],
+    "simulated:a_calculated_connection": [
+      -92,
+      124
+    ],
+    "simulated:thataway": [
+      0,
+      236
+    ],
+    "simulated:get_a_grip": [
+      40,
+      164
+    ],
+    "simulated:call_of_the_void": [
+      -80,
+      164
+    ],
+    "simulated:measure_once_build_twice": [
+      20,
+      96
+    ],
+    "simulated:big_beam": [
+      40,
+      236
+    ],
+    "simulated:what_goes_down": [
+      40,
+      200
+    ],
+    "simulated:must_come_up": [
+      112,
+      200
+    ],
+    "simulated:i_declare_thee": [
+      -20,
+      96
+    ],
+    "simulated:got_a_grip": [
+      84,
+      132
+    ],
+    "simulated:speed_is_key": [
+      -80,
+      236
+    ],
+    "simulated:far_from_home": [
+      0,
+      268
+    ],
+    "simulated:rewind_time": [
+      76,
+      200
+    ],
+    "simulated:convoluted_circumvolutions": [
+      -40,
+      236
+    ],
+    "simulated:i_paid_for_the_whole_typewriter": [
+      120,
+      132
+    ],
+    "simulated:unpowered_steering": [
+      76,
+      164
+    ],
+    "simulated:the_definition_of_up": [
+      -40,
+      268
+    ],
+    "simulated:steamless_engine": [
+      112,
+      164
+    ],
+    "simulated:my_eye": [
+      40,
+      268
+    ],
+    "simulated:nearsighted": [
+      76,
+      236
+    ],
+    "simulated:that_should_do_for_now": [
+      148,
+      164
+    ],
+    "create:root": [
+      0,
+      84
+    ],
+    "create:andesite_alloy": [
+      32,
+      84
+    ],
+    "create:water_wheel": [
+      48,
+      124
+    ],
+    "create:andesite_casing": [
+      64,
+      84
+    ],
+    "create:windmill": [
+      16,
+      124
+    ],
+    "create:windmill_maxed": [
+      32,
+      32
+    ],
+    "create:mechanical_press": [
+      96,
+      84
+    ],
+    "create:shifting_gears": [
+      32,
+      160
+    ],
+    "create:ejector_maxed": [
+      52,
+      32
+    ],
+    "create:encased_fan": [
+      96,
+      120
+    ],
+    "create:pulley_maxed": [
+      72,
+      32
+    ],
+    "create:fan_processing": [
+      120,
+      120
+    ],
+    "create:cart_pickup": [
+      92,
+      32
+    ],
+    "create:saw_processing": [
+      152,
+      84
+    ],
+    "create:millstone": [
+      80,
+      160
+    ],
+    "create:compacting": [
+      120,
+      84
+    ],
+    "create:belt": [
+      188,
+      84
+    ],
+    "create:anvil_plough": [
+      112,
+      32
+    ],
+    "create:super_glue": [
+      -28,
+      160
+    ],
+    "create:funnel": [
+      176,
+      108
+    ],
+    "create:contraption_actors": [
+      -52,
+      160
+    ],
+    "create:portable_storage_interface": [
+      -40,
+      136
+    ],
+    "create:chute": [
+      200,
+      108
+    ],
+    "create:mechanical_mixer": [
+      188,
+      32
+    ],
+    "create:burner": [
+      236,
+      32
+    ],
+    "create:lava_wheel_00000": [
+      12,
+      32
+    ],
+    "create:cardboard": [
+      188,
+      -8
+    ],
+    "create:wrench_goggles": [
+      -40,
+      84
+    ],
+    "create:stressometer_maxed": [
+      -8,
+      32
+    ],
+    "create:belt_funnel_kiss": [
+      152,
+      32
+    ],
+    "create:packager": [
+      236,
+      -20
+    ],
+    "create:copper": [
+      236,
+      112
+    ],
+    "create:hand_crank_000": [
+      132,
+      32
+    ],
+    "create:mechanical_pump_0": [
+      304,
+      112
+    ],
+    "create:stock_ticker": [
+      260,
+      -20
+    ],
+    "create:frogport": [
+      260,
+      -44
+    ],
+    "create:hose_pulley_lava": [
+      352,
+      112
+    ],
+    "create:steam_engine_maxed": [
+      352,
+      172
+    ],
+    "create:stressometer": [
+      -40,
+      48
+    ],
+    "create:cuckoo_clock": [
+      -76,
+      48
+    ],
+    "create:copper_casing": [
+      268,
+      112
+    ],
+    "create:foods": [
+      400,
+      124
+    ],
+    "create:table_cloth_shop": [
+      248,
+      -80
+    ],
+    "create:glass_pipe": [
+      304,
+      136
+    ],
+    "create:spout": [
+      268,
+      148
+    ],
+    "create:diving_suit_lava": [
+      352,
+      76
+    ],
+    "create:drain": [
+      268,
+      172
+    ],
+    "create:water_supply": [
+      328,
+      136
+    ],
+    "create:factory_gauge": [
+      236,
+      -44
+    ],
+    "create:cardboard_armor": [
+      188,
+      -32
+    ],
+    "create:cardboard_armor_trim": [
+      140,
+      -8
+    ],
+    "create:steam_engine": [
+      328,
+      172
+    ],
+    "create:package_chute_throw": [
+      120,
+      -8
+    ],
+    "create:steam_whistle": [
+      376,
+      172
+    ],
+    "create:hose_pulley": [
+      352,
+      136
+    ],
+    "create:backtank": [
+      328,
+      76
+    ],
+    "create:pipe_organ": [
+      400,
+      172
+    ],
+    "create:chained_drain": [
+      244,
+      172
+    ],
+    "create:diving_suit": [
+      284,
+      76
+    ],
+    "create:chocolate_bucket": [
+      376,
+      112
+    ],
+    "create:cross_streams": [
+      328,
+      112
+    ],
+    "create:brass": [
+      284,
+      16
+    ],
+    "create:haunted_bell": [
+      304,
+      -12
+    ],
+    "create:honey_drain": [
+      376,
+      136
+    ],
+    "create:brass_casing": [
+      324,
+      16
+    ],
+    "create:rose_quartz": [
+      364,
+      16
+    ],
+    "create:crusher_maxed_0000": [
+      536,
+      16
+    ],
+    "create:arm_many_targets": [
+      500,
+      -16
+    ],
+    "create:clockwork_bearing": [
+      336,
+      -12
+    ],
+    "create:potato_cannon_collide": [
+      396,
+      -16
+    ],
+    "create:display_link": [
+      336,
+      -44
+    ],
+    "create:deployer": [
+      404,
+      16
+    ],
+    "create:self_deploying": [
+      392,
+      40
+    ],
+    "create:precision_mechanism": [
+      444,
+      16
+    ],
+    "create:potato_cannon": [
+      396,
+      -40
+    ],
+    "create:speed_controller": [
+      444,
+      -16
+    ],
+    "create:mechanical_arm": [
+      476,
+      -16
+    ],
+    "create:extendo_grip": [
+      372,
+      -40
+    ],
+    "create:mechanical_crafter": [
+      476,
+      16
+    ],
+    "create:fist_bump": [
+      416,
+      40
+    ],
+    "create:crafter_lazy_000": [
+      476,
+      40
+    ],
+    "create:linked_controller": [
+      384,
+      -64
+    ],
+    "create:musical_arm": [
+      520,
+      -16
+    ],
+    "create:arm_blaze_burner": [
+      476,
+      -40
+    ],
+    "create:crushing_wheel": [
+      512,
+      16
+    ],
+    "create:extendo_grip_dual": [
+      372,
+      -16
+    ],
+    "create:sturdy_sheet": [
+      512,
+      76
+    ],
+    "create:track_0": [
+      576,
+      76
+    ],
+    "create:train_whistle": [
+      576,
+      112
+    ],
+    "create:track_crafting_factory": [
+      512,
+      112
+    ],
+    "create:train_casing_00": [
+      544,
+      76
+    ],
+    "create:long_train": [
+      488,
+      112
+    ],
+    "create:train_portal": [
+      536,
+      112
+    ],
+    "create:train": [
+      608,
+      76
+    ],
+    "create:long_travel": [
+      500,
+      136
+    ],
+    "create:conductor": [
+      608,
+      112
+    ],
+    "create:track_signal": [
+      632,
+      112
+    ],
+    "create:train_crash_backwards": [
+      632,
+      76
+    ],
+    "create:train_roadkill": [
+      644,
+      52
+    ],
+    "create:display_board_0": [
+      632,
+      148
+    ],
+    "create:red_signal": [
+      652,
+      112
+    ],
+    "create:train_crash": [
+      656,
+      76
     ]
   },
   "backgrounds": {
@@ -581,6 +1145,76 @@
       },
       {
         "texture": "minecraft:textures/block/end_stone_bricks.png",
+        "weight": 10
+      }
+    ],
+    "create:root": [
+      {
+        "texture": "create:textures/block/palettes/stone_types/brick/granite_cut_brick.png",
+        "weight": 100
+      },
+      {
+        "texture": "create:textures/block/palettes/stone_types/brick/dripstone_cut_brick.png",
+        "weight": 40
+      },
+      {
+        "texture": "create:textures/block/bars/copper_bars.png",
+        "weight": 15
+      },
+      {
+        "texture": "create:textures/block/fluid_tank.png",
+        "weight": 5
+      },
+      {
+        "texture": "create:textures/block/andesite_casing.png",
+        "weight": 4
+      }
+    ],
+    "simulated:root": [
+      {
+        "texture": "create:textures/block/industrial_iron_block.png",
+        "weight": 100
+      },
+      {
+        "texture": "create:textures/block/weathered_iron_block.png",
+        "weight": 40
+      },
+      {
+        "texture": "create:textures/block/belt.png",
+        "weight": 10
+      },
+      {
+        "texture": "simulated:textures/block/custom_break_particles/winch.png",
+        "weight": 2
+      },
+      {
+        "texture": "simulated:textures/block/custom_break_particles/portable_engine/red.png",
+        "weight": 2
+      },
+      {
+        "texture": "simulated:textures/block/auger_shaft/auger_hole.png",
+        "weight": 2
+      }
+    ],
+    "aeronautics:root": [
+      {
+        "texture": "minecraft:textures/block/light_blue_concrete.png",
+        "weight": 100
+      },
+      {
+        "texture": "minecraft:textures/block/light_blue_terracotta.png",
+        "weight": 20
+      },
+      {
+        "texture": "minecraft:textures/block/calcite.png",
+        "weight": 10
+      },
+      {
+        "texture": "aeronautics:textures/block/envelope_block/envelope_white.png",
+        "weight": 10
+      },
+      {
+        "texture": "minecraft:textures/block/white_concrete_powder.png",
         "weight": 10
       }
     ]
