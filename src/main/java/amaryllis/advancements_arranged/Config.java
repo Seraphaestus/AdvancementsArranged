@@ -16,6 +16,7 @@ public class Config {
     public static final ModConfigSpec.IntValue WINDOW_BACKGROUND_MARGIN_X;
     public static final ModConfigSpec.IntValue WINDOW_BACKGROUND_MARGIN_Y;
     public static final ModConfigSpec.DoubleValue WINDOW_BACKGROUND_DARKNESS;
+    public static final ModConfigSpec.BooleanValue DRAW_ARROWS;
     public static final ModConfigSpec.ConfigValue<List<? extends String>> TAB_SORT_ORDER;
 
     static {
@@ -28,16 +29,16 @@ public class Config {
 
         WINDOW_WIDTH = BUILDER
                 .comment("")
-                .comment("It is recommended that additional size is added in increments of 16 so the background can tile nicely")
-                .comment("Note: the vanilla size is (252, 140)")
+                .comment(" It is recommended that additional size is added in increments of 16 so the background can tile nicely")
+                .comment(" Note: the vanilla size is (252, 140)")
                 .defineInRange("window_width", 380, 0, 1024);
         WINDOW_HEIGHT = BUILDER
                 .defineInRange("window_height", 204, 0, 1024);
 
         WINDOW_BACKGROUND_MARGIN_X = BUILDER
                 .comment("")
-                .comment("Margins for splitting the advancement screen background into a nine-patch rect")
-                .comment("The background can be located at minecraft:textures/gui/advancements/window")
+                .comment(" Margins for splitting the advancement screen background into a nine-patch rect")
+                .comment(" The background can be located at minecraft:textures/gui/advancements/window")
                 .defineInRange("window_background_margin_x", 32, 0, 1024);
         WINDOW_BACKGROUND_MARGIN_Y = BUILDER
                 .defineInRange("window_background_margin_y", 32, 0, 1024);
@@ -46,10 +47,15 @@ public class Config {
                 .comment("")
                 .defineInRange("window_background_darkness", 0.25, 0d, 1d);
 
+        DRAW_ARROWS = BUILDER
+                .comment("")
+                .comment(" If arrows are drawn at the end of inter-advancement connectivity lines to indicate directionality")
+                .define("draw_arrows", true);
+
         TAB_SORT_ORDER = BUILDER
                 .comment("")
-                .comment("Ordered list of root advancement IDs which dictates the order their corresponding tabs should be displayed")
-                .comment("Non-listed tabs will be displayed after the end of the listed tabs in arbitrary order")
+                .comment(" Ordered list of root advancement IDs which dictates the order their corresponding tabs should be displayed")
+                .comment(" Non-listed tabs will be displayed after the end of the listed tabs in arbitrary order")
                 .defineListAllowEmpty("tab_sort_order",
                         List.of("minecraft:story", "minecraft:husbandry", "minecraft:adventure", "minecraft:nether", "minecraft:end"),
                         (id) -> true);

@@ -1,10 +1,13 @@
 package amaryllis.advancements_arranged.mixin;
 
+import amaryllis.advancements_arranged.Config;
 import amaryllis.advancements_arranged.PersistentData;
 import amaryllis.advancements_arranged.Util;
 import amaryllis.advancements_arranged.mixin_interfaces.IAdvancementTab;
 import amaryllis.advancements_arranged.mixin_interfaces.IAdvancementWidget;
 import net.minecraft.advancements.AdvancementNode;
+import net.minecraft.advancements.AdvancementType;
+import net.minecraft.advancements.DisplayInfo;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.advancements.AdvancementTab;
 import net.minecraft.client.gui.screens.advancements.AdvancementWidget;
@@ -36,6 +39,7 @@ public class AdvancementWidgetMixin implements IAdvancementWidget {
 
     @Shadow private AdvancementTab tab;
     @Shadow private AdvancementNode advancementNode;
+    @Shadow DisplayInfo display;
 
     @Shadow @Nullable private AdvancementWidget parent;
     @Shadow private List<AdvancementWidget> children;
@@ -69,15 +73,15 @@ public class AdvancementWidgetMixin implements IAdvancementWidget {
             int endX = x + HALF_SIZE + scrollX + 3;
             int endY = y + HALF_SIZE + scrollY;
 
-            int deltaX = endX - startX;
-            int deltaY = endY - startY;
+            int width = Math.abs(endX - startX);
+            int height = Math.abs(endY - startY);
 
-            boolean verticalAnchors = deltaX > deltaY;
-            if (deltaX < SIZE) verticalAnchors = true;
-            else if (deltaY < SIZE) verticalAnchors = false;
+            boolean verticalAnchors = width > height;
+            if (width < SIZE) verticalAnchors = true;
+            else if (height < SIZE) verticalAnchors = false;
 
-            int endAnchorX =  verticalAnchors ? endX : endX - Math.min(deltaX / 2, MAX_BEND_DISTANCE);
-            int endAnchorY = !verticalAnchors ? endY : endY - Math.min(deltaY / 2, MAX_BEND_DISTANCE);
+            int endAnchorX =  verticalAnchors ? endX : endX - Math.min((endX - startX) / 2, MAX_BEND_DISTANCE);
+            int endAnchorY = !verticalAnchors ? endY : endY - Math.min((endY - startY) / 2, MAX_BEND_DISTANCE);
 
             int startAnchorX =  verticalAnchors ? startX : endAnchorX;
             int startAnchorY = !verticalAnchors ? startY : endAnchorY;
@@ -88,11 +92,23 @@ public class AdvancementWidgetMixin implements IAdvancementWidget {
             Util.line(guiGraphics, startX, startY, startAnchorX, startAnchorY, thickness, color);
             Util.line(guiGraphics, startAnchorX, startAnchorY, endAnchorX, endAnchorY, thickness, color);
             Util.line(guiGraphics, endAnchorX, endAnchorY, endX, endY, thickness, color);
+
+            boolean showArrow = (verticalAnchors ? height : width) > SIZE + 7;
+            if ((verticalAnchors ? width : height) == 0 && (verticalAnchors ? height : width) > SIZE + 2) showArrow = true;
+
+            if (!dropShadow && showArrow && Config.DRAW_ARROWS.isTrue()) {
+                int edgeDistanceX = HALF_SIZE - 1;
+                int edgeDistanceY = HALF_SIZE - 1;
+                if (display.getType() == AdvancementType.GOAL) {
+                    edgeDistanceX -= 1;
+                    edgeDistanceY += 1;
+                }
+                Util.drawArrow(guiGraphics, endX, endY, endAnchorX, endAnchorY, verticalAnchors, edgeDistanceX, edgeDistanceY);
+            }
         }
 
         for (AdvancementWidget child: children) {
             child.drawConnectivity(guiGraphics, scrollX, scrollY, dropShadow);
         }
     }
-
 }

@@ -4,6 +4,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.advancements.AdvancementTab;
+import net.minecraft.client.gui.screens.advancements.AdvancementWidget;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
@@ -15,6 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Util {
+
+    private static final ResourceLocation arrowsSprite = ResourceLocation.fromNamespaceAndPath(AdvancementsArranged.MODID, "arrows");
 
     public static void blitNinePatch(GuiGraphics guiGraphics, ResourceLocation textureID,
                  int x, int y, int textureWidth, int textureHeight, int width, int height, int marginX, int marginY) {
@@ -80,6 +83,37 @@ public class Util {
     }
     public static void square(GuiGraphics guiGraphics, int x, int y, int radius, int color) {
         guiGraphics.fill(RenderType.gui(), x - radius, y - radius, x + 1 + radius, y + 1 + radius, color);
+    }
+
+    public static void drawArrow(GuiGraphics guiGraphics, int x, int y, int anchorX, int anchorY, boolean verticalAnchors, int edgeDistanceX, int edgeDistanceY) {
+        int width = verticalAnchors ? 7 : 5;
+        int height = verticalAnchors ? 5 : 7;
+        int u = 0, v = 0;
+
+        if (verticalAnchors) {
+            boolean downwards = (y < anchorY);
+            y = moveTowards(y, anchorY, edgeDistanceY);
+            x -= 3;
+            if (downwards) {
+                u = 8;
+            } else {
+                y -= 5;
+            }
+        }
+        else {
+            boolean rightwards = (x > anchorX);
+            x = moveTowards(x, anchorX, edgeDistanceX);
+            y -= 3;
+            v = 6;
+            if (rightwards) {
+                u = 6;
+                x -= 5;
+            }
+        }
+        guiGraphics.blitSprite(arrowsSprite, 16, 16, u, v, x, y, width, height);
+    }
+    public static int moveTowards(int a, int b, int distance) {
+        return (b > a) ? Math.min(a + distance, b) : Math.max(a - distance, b);
     }
 
 
